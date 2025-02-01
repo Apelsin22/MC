@@ -1,0 +1,384 @@
+[13:34:37] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Microsoft Microsoft-10376803) on Linux 6.5.0-1025-azure (amd64)
+[13:34:37] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[13:34:37] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:34:37] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+[13:34:37] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/TAB v5.0.5.jar'...
+[13:34:39] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/TAB v5.0.5.jar' in 1471ms.
+[13:34:39] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 1775ms.
+[13:34:39] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
+[13:34:39] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
+ - TAB (5.0.5), ViaBackwards (5.2.2-SNAPSHOT), ViaVersion (5.2.2-SNAPSHOT), playit-gg (0.1.4)
+[13:34:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:34:45] [ServerMain/INFO]: Loaded 1290 recipes
+[13:34:45] [ServerMain/INFO]: Loaded 1399 advancements
+[13:34:45] [Server thread/INFO]: Starting minecraft server version 1.21
+[13:34:45] [Server thread/INFO]: Loading properties
+[13:34:45] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[13:34:46] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:34:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:34:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:34:47] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[13:34:47] [Server thread/INFO]: Default game type: SURVIVAL
+[13:34:47] [Server thread/INFO]: Generating keypair
+[13:34:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:34:47] [Server thread/INFO]: Using epoll channel type
+[13:34:47] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:34:47] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[13:34:49] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.2-SNAPSHOT
+[13:34:49] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[13:34:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:34:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[13:34:51] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[13:34:51] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[13:34:52] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.2-SNAPSHOT
+[13:34:52] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.5
+[13:34:52] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[13:34:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:34:52] [Server thread/INFO]: Preparing level "world"
+[13:34:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:34:53] [Server thread/INFO]: Time elapsed: 641 ms
+[13:34:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:34:54] [Server thread/INFO]: Time elapsed: 200 ms
+[13:34:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:34:54] [Server thread/INFO]: Time elapsed: 672 ms
+[13:34:54] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.2-SNAPSHOT
+[13:34:54] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[13:34:54] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.2-SNAPSHOT
+[13:34:54] [Server thread/INFO]: [TAB] Enabling TAB v5.0.5
+[13:34:55] [Server thread/INFO]: [TAB] Loaded NMS hook in 104ms
+[13:34:55] [Server thread/INFO]: [TAB] Enabled in 724ms
+[13:34:55] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[13:34:57] [Server thread/INFO]: [spark] Starting background profiler...
+[13:34:57] [Server thread/INFO]: Done preparing level "world" (4.879s)
+[13:34:57] [Server thread/INFO]: Running delayed init tasks
+[13:34:57] [Server thread/INFO]: Done (21.074s)! For help, type "help"
+[13:34:57] [Server thread/INFO]: Timings Reset
+[13:34:57] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[13:34:57] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[13:35:00] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key not set, generate claim code: 14c19ba9feaaac9b
+[13:35:00] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:01] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:04] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:04] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:07] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:07] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:10] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:10] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:13] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:13] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:16] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:17] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:20] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:20] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:23] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:23] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:26] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:27] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:30] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:30] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:33] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:33] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:36] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:37] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:40] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:40] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:43] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:44] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:47] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:47] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:50] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:50] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:53] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:53] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:35:56] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:35:57] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:00] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:00] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:03] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:03] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:06] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:06] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:09] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:09] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:12] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:13] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:16] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:16] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:19] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:19] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:22] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:22] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:25] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:26] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:29] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:29] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:32] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:33] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:36] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:36] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:39] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:39] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:42] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:42] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:45] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:45] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:48] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:49] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:52] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:52] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:55] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:56] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:36:59] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:36:59] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:37:02] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:37:03] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:37:06] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:37:06] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:37:09] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:37:09] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:37:12] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:37:13] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:37:16] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:37:16] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/14c19ba9feaaac9b
+[13:37:19] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:37:19] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[13:37:21] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] create new minecraft java tunnel
+[13:37:36] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: parents-test.joinmc.link
+[13:37:36] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[13:37:36] [Thread-6/INFO]: playit.gg: WARNING: email associated with playit.gg account is not verified
+[13:37:36] [Thread-6/INFO]: playit.gg: tunnel setup
+[13:37:36] [Thread-6/INFO]: playit.gg: parents-test.joinmc.link
+[13:37:36] [Thread-6/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:82c:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[13:37:37] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[13:41:38] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:42:12] [Server thread/INFO]: Unknown or incomplete command, see below for error
+info<--[HERE]
+[13:42:16] [Server thread/INFO]: --------- Help: Index ---------------------------
+[13:42:16] [Server thread/INFO]: Use /help [n] to get page n of help.
+[13:42:16] [Server thread/INFO]: Aliases: Lists command aliases
+[13:42:16] [Server thread/INFO]: Bukkit: All commands for Bukkit
+[13:42:16] [Server thread/INFO]: Minecraft: All commands for Minecraft
+[13:42:16] [Server thread/INFO]: playit-gg: All commands for playit-gg
+[13:42:16] [Server thread/INFO]: TAB: All commands for TAB
+[13:42:16] [Server thread/INFO]: ViaVersion: All commands for ViaVersion
+[13:42:16] [Server thread/INFO]: /advancement: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /attribute: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /ban: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /ban-ip: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /banlist: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /bossbar: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /callback: ClickEvent callback
+[13:42:16] [Server thread/INFO]: /clear: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /clone: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /damage: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /data: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /datapack: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /debug: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /deop: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /difficulty: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /effect: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /enchant: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /execute: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /experience: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /fill: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /fillbiome: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /forceload: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /function: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /gamemode: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /gamerule: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /give: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /help: Shows the help menu
+[13:42:16] [Server thread/INFO]: /item: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /jfr: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /kick: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /kill: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /list: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /locate: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /loot: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /me: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:advancement: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:attribute: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:ban: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:ban-ip: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:banlist: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:bossbar: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:clear: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:clone: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:damage: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:data: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:datapack: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:debug: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:defaultgamemode: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:deop: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:difficulty: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:effect: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:enchant: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:execute: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:experience: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:fill: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:fillbiome: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:forceload: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:function: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:gamemode: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:gamerule: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:give: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:item: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:jfr: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:kick: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:kill: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:list: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:locate: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:loot: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:me: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:msg: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:op: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:pardon: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:pardon-ip: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:particle: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:perf: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:place: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:playsound: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:random: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:recipe: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:return: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:ride: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:save-all: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:save-off: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:save-on: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:say: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:schedule: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:scoreboard: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:seed: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:setblock: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:setidletimeout: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:setworldspawn: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:spawnpoint: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:spectate: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:spreadplayers: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:stop: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:stopsound: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:summon: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:tag: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:team: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:teammsg: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:teleport: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:tell: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:tellraw: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:tick: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:time: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:title: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:tm: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:tp: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:transfer: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:trigger: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:w: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:weather: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:whitelist: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:worldborder: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /minecraft:xp: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /msg: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /mspt: View server tick times
+[13:42:16] [Server thread/INFO]: /op: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /paper: Paper related commands
+[13:42:16] [Server thread/INFO]: /paper:spark: 
+[13:42:16] [Server thread/INFO]: /pardon: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /particle: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /perf: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /place: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /playit: Configure playit.gg
+[13:42:16] [Server thread/INFO]: /playsound: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+[13:42:16] [Server thread/INFO]: /random: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /recipe: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+[13:42:16] [Server thread/INFO]: /restart: Restarts the server
+[13:42:16] [Server thread/INFO]: /return: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /ride: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /save-all: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /save-off: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /save-on: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /say: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /schedule: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /seed: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /setblock: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /spark: 
+[13:42:16] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /spectate: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /spigot: Spigot related commands
+[13:42:16] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /stop: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /stopsound: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /summon: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /tab: Plugin's main command
+[13:42:16] [Server thread/INFO]: /tag: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /team: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /teammsg: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /teleport: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /tell: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /tellraw: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /tick: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /time: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
+[13:42:16] [Server thread/INFO]: /title: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /tm: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /tp: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
+[13:42:16] [Server thread/INFO]: /transfer: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /trigger: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+[13:42:16] [Server thread/INFO]: /viaversion: Shows ViaVersion Version and more.
+[13:42:16] [Server thread/INFO]: /w: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /weather: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /whitelist: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /worldborder: A Mojang provided command.
+[13:42:16] [Server thread/INFO]: /xp: A Mojang provided command.
+[13:42:46] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/tps<--[HERE]
+[13:42:50] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[13:43:06] [Server thread/INFO]: Unknown or incomplete command, see below for error
+tick<--[HERE]
+[13:43:20] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/tick<--[HERE]
+[13:43:25] [Server thread/INFO]: Unknown or incomplete command, see below for error
+tick<--[HERE]
+[13:43:29] [Server thread/INFO]: Incorrect argument for command
+tick 1<--[HERE]
+[13:43:34] [Server thread/INFO]: Unknown or incomplete command, see below for error
+time<--[HERE]
+[13:45:39] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:47:05] [Server thread/INFO]: Stopping the server
+[13:47:05] [Server thread/INFO]: Stopping server
+[13:47:05] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[13:47:05] [Server thread/INFO]: [TAB] Disabling TAB v5.0.5
+[13:47:05] [Server thread/INFO]: [TAB] Disabled in 0ms
+[13:47:05] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.2-SNAPSHOT
+[13:47:05] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.2-SNAPSHOT
+[13:47:05] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[13:47:05] [Server thread/INFO]: Saving players
+[13:47:05] [Server thread/INFO]: Saving worlds
+[13:47:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:47:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:47:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:47:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:47:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[13:47:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:47:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:47:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:47:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:47:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[13:47:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:47:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:47:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:47:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:47:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[13:47:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:47:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:47:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:47:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
